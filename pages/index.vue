@@ -217,7 +217,7 @@ export default {
       dots: false,
       infinite: true,
       centerMode: true,
-      // autoplay: true,
+      autoplay: true,
       // speed: 2000,
       // autoplaySpeed: 2000,
       // cssEase: "linear",
@@ -360,19 +360,16 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 150px;
-}
-
-#circle text {
-  font-family: Montserrat, sans-serif;
-  font-size: 16px;
-  font-weight: bold;
+  width: 100px;
+  height:100px;
 }
 
 #circle .svg_text {
-  letter-spacing: 8px;
+  letter-spacing: 6.5px;
   font-weight: lighter;
-  font-size: 6px;
+  font-family: Montserrat, sans-serif;
+  font-size: 8px;
+  font-weight: normal;
 }
 
 #circle svg {
