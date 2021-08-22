@@ -503,6 +503,7 @@ export default {
   color: rgba(0, 0, 0, 0.5);
 }
 .shopping-section .text-panel button {
+  border-radius: 0;
   font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -545,7 +546,7 @@ export default {
 /**collection section */
 .collection-section {
   position: relative;
-  height: 150vh;
+  height: 130vh;
   background: linear-gradient(
     180deg,
     rgba(236, 227, 212, 0.7) 0%,

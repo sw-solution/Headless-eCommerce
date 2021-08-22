@@ -15,7 +15,7 @@
               Products, tours and news. We won't spam your inbox.
             </p>
           </v-row>
-          <v-row class="email-subscribe-panel d-flex ma-0 mt-10">
+          <v-row class="email-subscribe-panel d-flex ma-0 mt-10 col-12 pa-0">
             <input
               type="email"
               class="form-control input-email col-md-10 col-sm-9 mr-1"
