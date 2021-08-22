@@ -71,6 +71,7 @@
         <h3>Rings</h3>
         <p class="mt-3">Earrrings<br />Bracelets<br />Necklaces<br />Watches</p>
         <v-btn
+          tile
           color="grey darken-4"
           class="px-lg-8 py-lg-5 px-md-7 py-md-4 white--text"
           >SHOP NOW</v-btn
@@ -361,7 +362,7 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100px;
-  height:100px;
+  height: 100px;
 }
 
 #circle .svg_text {
@@ -503,7 +504,6 @@ export default {
   color: rgba(0, 0, 0, 0.5);
 }
 .shopping-section .text-panel button {
-  border-radius: 0;
   font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -701,11 +701,12 @@ export default {
 @media (max-width: 1024px) {
   /**product section */
   .product-section__title {
-    width: 100%
+    width: 100%;
   }
 
   /**shopping section */
-  .shopping-section .text-panel h3, .shopping-section .text-panel p {
+  .shopping-section .text-panel h3,
+  .shopping-section .text-panel p {
     font-size: 55px;
   }
 

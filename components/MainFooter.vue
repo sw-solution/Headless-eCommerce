@@ -22,7 +22,7 @@
               placeholder="Email Address"
               v-model="email"
             />
-            <v-btn color="grey darken-4 white--text btn-subscribe" class="py-6">
+            <v-btn tile color="grey darken-4 white--text btn-subscribe" class="py-6">
               SUBSCRIBE
             </v-btn>
           </v-row>
@@ -209,8 +209,6 @@ export default {
   line-height: 24px;
   text-transform: uppercase;
   color: #ffffff;
-}
-.btn-subscribe {
   height: 70px !important;
   border-radius: 0;
   flex: 1;
