@@ -311,7 +311,7 @@ export default {
     font-size: 12px;
   }
   .email-subscribe-panel .input-email,
-  .btn-subscribe {
+  .email-subscribe-panel .btn-subscribe {
     height: 55px !important;
   }
 }
