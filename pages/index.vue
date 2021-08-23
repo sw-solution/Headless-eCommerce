@@ -19,7 +19,7 @@
     <!--Start text section-->
     <v-col
       cols="12"
-      class="text-section py-0 d-flex justify-center align-center"
+      class="text-section d-flex justify-center align-center"
     >
       <p class="mx-auto text-center">
         With an extensive stock of loose and set diamonds, we have the most
@@ -313,7 +313,6 @@ export default {
 <style scoped>
 /** Header section*/
 .header-section {
-  height: 100vh;
   background: url("~/assets/img/Rectangle 137.jpg");
   background-size: cover;
 }
@@ -325,11 +324,15 @@ export default {
   font-family: Canela, sans-serif;
   font-weight: normal;
 }
-
+.header-section .container {
+  padding-top: 13%;
+  padding-bottom: 13%;
+}
 /**Text section */
 .text-section {
   position: relative;
-  height: 100vh;
+  padding-top: 14%;
+  padding-bottom: 14%;
   background-color: #f7f3ec;
 }
 .text-section p {
@@ -447,7 +450,8 @@ export default {
 .shopping-section {
   position: relative;
   background: white;
-  height: 100vh;
+  padding-top: 11%;
+  padding-bottom: 11%;
 }
 .shopping-section > .col {
   position: relative;
@@ -546,7 +550,6 @@ export default {
 /**collection section */
 .collection-section {
   position: relative;
-  height: 130vh;
   background: linear-gradient(
     180deg,
     rgba(236, 227, 212, 0.7) 0%,
@@ -555,6 +558,7 @@ export default {
 }
 .collection-section .text-panel {
   width: 80%;
+  padding-bottom: 20%;
 }
 .collection-title {
   font-family: Canela, sans-serif;
@@ -586,7 +590,8 @@ export default {
 
 /**product section */
 .product-section {
-  height: 150vh;
+  padding-top: 12%;
+  padding-bottom: 12%;
   background: white;
 }
 .product-section .product-carousel {
@@ -681,9 +686,6 @@ export default {
   /**collection section */
   .collection-title {
     font-size: 150px;
-  }
-  .collection-section {
-    height: 120vh;
   }
 
   /**product section */
